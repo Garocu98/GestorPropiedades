@@ -76,6 +76,8 @@ Acceder desde el navegador:
 
 http://localhost/GestorPropiedades
 
+---
+
 ## 🔐 Acceso al panel de administración
 
 Credenciales de prueba:
@@ -92,7 +94,9 @@ Tests automáticos
 
 Despliegue en producción
 
-✨ Autor
+---
+
+## ✨ Autor
 Gabriel Romero Cubas
 GitHub: https://github.com/Garocu98
 
