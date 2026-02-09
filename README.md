@@ -49,24 +49,6 @@ El objetivo fue desarrollar una aplicación web completa aplicando:
 
 ---
 
-## 📂 Estructura del proyecto
-
-```text
-GestorPropiedades/
-├── admin/              # Panel de administración
-├── build/              # Archivos compilados (CSS, JS)
-├── imagenes/           # Imágenes del proyecto
-├── includes/           # Funciones y archivos reutilizables
-├── src/                # Código fuente principal
-├── anuncios.php
-├── blog.php
-├── cerrar-sesion.php
-├── index.php
-└── ...
-<!---->
-
----
-
 ## ⚙️ Requisitos
 
 - PHP >= 7.4
@@ -113,3 +95,22 @@ Despliegue en producción
 ✨ Autor
 Gabriel Romero Cubas
 GitHub: https://github.com/Garocu98
+
+---
+
+## 📂 Estructura del proyecto
+
+```text
+GestorPropiedades/
+├── admin/              # Panel de administración
+├── build/              # Archivos compilados (CSS, JS)
+├── imagenes/           # Imágenes del proyecto
+├── includes/           # Funciones y archivos reutilizables
+├── src/                # Código fuente principal
+├── anuncios.php
+├── blog.php
+├── cerrar-sesion.php
+├── index.php
+└── ...
+<!---->
+
