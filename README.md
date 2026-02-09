@@ -24,7 +24,7 @@ Gestor de Propiedades es una aplicación web desarrollada en **PHP** que permite
 
 GestorPropiedades/
 ├── admin/ # Panel de administración
-├── dist/ # Archivos compilados / distribución
+├── build/ # Archivos compilados / distribución (CSS, JS)
 ├── imagenes/ # Imágenes del proyecto
 ├── includes/ # Funciones y archivos reutilizables
 ├── src/ # Código fuente principal
