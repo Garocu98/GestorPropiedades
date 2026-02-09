@@ -51,12 +51,13 @@ El objetivo fue desarrollar una aplicación web completa aplicando:
 
 ## 📂 Estructura del proyecto
 
+```text
 GestorPropiedades/
-├── admin/ # Panel de administración
-├── build/ # Archivos compilados (CSS, JS)
-├── imagenes/ # Imágenes del proyecto
-├── includes/ # Funciones y archivos reutilizables
-├── src/ # Código fuente principal
+├── admin/              # Panel de administración
+├── build/              # Archivos compilados (CSS, JS)
+├── imagenes/           # Imágenes del proyecto
+├── includes/           # Funciones y archivos reutilizables
+├── src/                # Código fuente principal
 ├── anuncios.php
 ├── blog.php
 ├── cerrar-sesion.php
