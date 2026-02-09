@@ -1,15 +1,42 @@
 # 🏠 Gestor de Propiedades
 
-Gestor de Propiedades es una aplicación web desarrollada en **PHP** que permite administrar propiedades inmobiliarias de forma sencilla. Incluye funcionalidades como creación, edición, eliminación y visualización de anuncios, con un panel de administración y manejo de imágenes.
+Aplicación web desarrollada en **PHP** para la gestión de propiedades inmobiliarias.  
+Este proyecto forma parte de mi **portfolio personal** como desarrollador web y simula un sistema real de administración de anuncios con panel de control.
 
-## 🚀 Características
+## 🎯 Objetivo del proyecto
 
-- CRUD de propiedades (Crear, Leer, Actualizar, Eliminar)
+El objetivo fue desarrollar una aplicación web completa aplicando:
+- Lógica backend con PHP
+- Persistencia de datos con MySQL
+- Gestión de archivos e imágenes
+- Organización de un proyecto realista
+- Buenas prácticas de estructura y reutilización de código
+
+---
+
+## 📸 Capturas de pantalla
+
+### Página principal
+![Home](screenshots/home.png)
+
+### Listado de propiedades
+![Listado](screenshots/listado.png)
+
+### Panel de administración
+![Admin](screenshots/admin.png)
+
+---
+
+## 🚀 Funcionalidades
+
+- CRUD completo de propiedades
 - Panel de administración
 - Subida y gestión de imágenes
-- Autenticación básica (inicio y cierre de sesión)
-- Estructura modular con archivos reutilizables
-- Diseño responsive 
+- Autenticación básica (login / logout)
+- Listado y detalle de anuncios
+- Código modular y reutilizable
+
+---
 
 ## 🛠️ Tecnologías utilizadas
 
@@ -18,13 +45,15 @@ Gestor de Propiedades es una aplicación web desarrollada en **PHP** que permite
 - HTML5
 - CSS3
 - JavaScript
-- Apache / XAMPP / Laragon
+- Apache (XAMPP / Laragon / WAMP)
 
-## 📂 Estructura del proyecto (actual)
+---
+
+## 📂 Estructura del proyecto
 
 GestorPropiedades/
 ├── admin/ # Panel de administración
-├── build/ # Archivos compilados / distribución (CSS, JS)
+├── build/ # Archivos compilados (CSS, JS)
 ├── imagenes/ # Imágenes del proyecto
 ├── includes/ # Funciones y archivos reutilizables
 ├── src/ # Código fuente principal
@@ -33,45 +62,53 @@ GestorPropiedades/
 ├── cerrar-sesion.php
 ├── index.php
 └── ...
-> ⚠️ *La estructura está en proceso de mejora para una organización más clara y escalable.*
+
+
+---
 
 ## ⚙️ Requisitos
 
 - PHP >= 7.4
 - MySQL
-- Servidor local (XAMPP, WAMP, Laragon, etc.)
+- Servidor web local o remoto
 - Navegador web moderno
+
+---
 
 ## 🔧 Instalación
 
-1. Clona el repositorio:
+1. Clonar el repositorio:
    ```bash
    git clone https://github.com/Garocu98/GestorPropiedades.git
-Mueve el proyecto a tu servidor local:
+Colocar el proyecto en el servidor local:
 
 htdocs/GestorPropiedades
-Crea una base de datos en MySQL.
+Crear una base de datos en MySQL.
 
-Importa el archivo .sql o configura las tablas manualmente.
+Importar el archivo .sql si existe o crear las tablas manualmente.
 
-Configura la conexión a la base de datos en el archivo correspondiente dentro de includes/.
+Configurar la conexión a la base de datos en includes/.
 
-Inicia el servidor y accede desde el navegador:
+Acceder desde el navegador:
 
 http://localhost/GestorPropiedades
 
-## 🔐 Credenciales de acceso
+## 🔐 Acceso al panel de administración
 
-Usuario: admin
-Contraseña: admin
-✏️ Cambia estas credenciales en producción.
+Credenciales de prueba:
 
-## 📄 Licencia
+Usuario: correo@correo.com
+Contraseña: 123456
 
-Este proyecto es de uso educativo y personal.
-Puedes añadir una licencia si planeas distribuirlo públicamente.
+📌 Mejoras futuras
+Refactorización completa a patrón MVC
 
-## ✨ Autor
+Sistema de roles
 
-Garocu98
-GitHub: @Garocu98
+Tests automáticos
+
+Despliegue en producción
+
+✨ Autor
+Gabriel Romero Cubas
+GitHub: https://github.com/Garocu98
